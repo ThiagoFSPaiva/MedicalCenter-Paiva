@@ -1,0 +1,95 @@
+@media (max-width:992px){
+    .container{
+        max-width: 790px;
+
+
+    }
+    .container_headline{
+        justify-content: end;
+        margin-bottom: 50px;
+    }
+    .container_headline h1{
+        font-size: 30px;
+    }
+    .container_headline h2{
+        text-shadow: 1px 1px 1px rgb(0 0 0 / 72%);
+        font-size: 14px;
+    }
+    .departments{
+        height: 400px;
+    }
+    .departamento{
+        min-width: 100px;
+        
+    }
+
+
+}
+@media (max-width:818px){
+
+    header{
+        height: 80px;
+    }
+    nav ul{
+        display: none;
+    }
+    .menuMobile{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 40px;
+        height: 40px;
+        display: block;
+
+    }
+    .menu_Line{
+        margin-top: 6px;
+        height: 5px;
+        background-color: #13854c;
+        
+    }
+    #geral section{
+        margin-top: 40px;
+    }
+    #geral aside{
+        margin-bottom: 40px;
+    }
+    .container{
+        max-width: 462px;
+
+
+    }
+    .footer_menu{
+        flex-direction: column;
+    }
+    .footer_area{
+        flex-direction: column;
+    }
+    .footer_area .widget_body{
+        flex-direction: column;
+    }
+    #geral .container{
+        margin-top: 160px;
+        flex-direction: column;
+    }
+    .container_options{
+        flex-direction: column;
+    }
+    .departments{
+        height: 200px;
+    }
+    .departments{
+        height: 300px;
+    }
+    .departamento{
+        min-width: 150px;
+        
+    }
+
+
+
+}
+@media (max-width:458px){
+    .container{
+        max-width: 320px;
+    }
+}
