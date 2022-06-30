@@ -10,6 +10,7 @@
     .container_headline h2{
         text-shadow: 1px 1px 1px rgb(0 0 0 / 72%);
         font-size: 14px;
+        margin-bottom: 30px;
     }
     .departments{
         height: 400px;
@@ -22,13 +23,23 @@
 
 }
 @media (max-width:818px){
+    nav ul{
+        background: white;
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        top: 79;
+        width: 100%;
+        }
 
     header{
         height: 80px;
     }
-    nav ul{
-        display: none;
+    nav ul li a{
+        display: block;
     }
+    
     .menuMobile{
         margin-top: 40px;
         margin-bottom: 40px;

@@ -54,6 +54,10 @@ nav a{
     text-decoration: none;
 
 }
+nav ul .active a,nav ul li a:hover{
+
+    background-color: #19ae63;
+}
 .menu{
     align-items: center;
     padding-right: 0;
@@ -62,10 +66,6 @@ nav a{
     align-items: center;
 }
 
-nav .active a,nav a:hover{
-    color: white;
-    background-color: #19ae63;
-}
 #banner{ 
     display: flex;
     justify-content: center;
