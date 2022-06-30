@@ -8,8 +8,5 @@ Está e uma interface que simula um site real de uma centro médico com uso flex
 
 - HTML
 - CSS
-- Javascript
-
-
 
 [Clique aqui para visualizar](https://thiagofspaiva.github.io/MedicalCenter-Paiva/)
